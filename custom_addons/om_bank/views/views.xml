@@ -1,0 +1,99 @@
+<odoo>
+  <data>
+
+    <record id="partner_bank_accounts" model="ir.ui.view">
+      <field name="name">partner_bank_accounts</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+          <notebook position="inside">
+            <page string="Bank Accounts">
+              <field name="bank_acc_ids">
+                <tree>
+                  <field name="acc_number"/>
+                  <field name="partner_id"/>
+                  <field name="bank_name"/>
+                </tree>
+              </field>
+            </page>
+          </notebook>
+      </field>
+    </record>
+
+    <!-- <record id="res_partner_bank_accounts" model="ir.ui.view">
+      <field name="name">res_partner_bank_accounts</field>
+      <field name="model">res.partner.bank</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+          <notebook position="inside">
+            <page string="Bank Accounts">
+              <field name="bank_acc_ids">
+                <tree>
+                  <field name="bank_acc_ids.acc_number"/>
+                  <field name="bank_acc_ids.partner_id"/>
+                  <field name="bank_acc_ids.bank_name"/>
+                </tree>
+              </field>
+            </page>
+          </notebook>
+      </field>
+    </record> -->
+
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="om_bank.list">
+      <field name="name">om_bank list</field>
+      <field name="model">om_bank.om_bank</field>
+      <field name="arch" type="xml">
+        <list>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </list>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="om_bank.action_window">
+      <field name="name">om_bank window</field>
+      <field name="res_model">om_bank.om_bank</field>
+      <field name="view_mode">list,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="om_bank.action_server">
+      <field name="name">om_bank server</field>
+      <field name="model_id" ref="model_om_bank_om_bank"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "list,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="om_bank" id="om_bank.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="om_bank.menu_1" parent="om_bank.menu_root"/>
+    <menuitem name="Menu 2" id="om_bank.menu_2" parent="om_bank.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="om_bank.menu_1_list" parent="om_bank.menu_1"
+              action="om_bank.action_window"/>
+    <menuitem name="Server to list" id="om_bank" parent="om_bank.menu_2"
+              action="om_bank.action_server"/>
+-->
+  </data>
+</odoo>
