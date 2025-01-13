@@ -1,0 +1,111 @@
+id,name,state_id
+1,Medan,Sumatra Utara
+2,Binjai,Sumatra Utara
+3,Tebing Tinggi,Sumatra Utara
+4,Pematang Siantar,Sumatra Utara
+5,Langkat,Sumatra Utara
+6,Banda Aceh,Aceh
+7,Lhokseumawe,Aceh
+8,Langsa,Aceh
+9,Sabang,Aceh
+10,Meulaboh,Aceh
+11,Palembang,Sumatra Selatan
+12,Lubuk Linggau,Sumatra Selatan
+13,Prabumulih,Sumatra Selatan
+14,Pagar Alam,Sumatra Selatan
+15,Muara Enim,Sumatra Selatan
+16,Bandar Lampung,Lampung
+17,Metro,Lampung
+18,Pringsewu,Lampung
+19,Kotabumi,Lampung
+20,Kalianda,Lampung
+21,Bogor,Jawa Barat
+22,Bandung,Jawa Barat
+23,Bekasi,Jawa Barat
+24,Depok,Jawa Barat
+25,Tasikmalaya,Jawa Barat
+26,Surabaya,Jawa Timur
+27,Malang,Jawa Timur
+28,Kediri,Jawa Timur
+29,Banyuwangi,Jawa Timur
+30,Madiun,Jawa Timur
+31,Yogyakarta,Yogyakarta
+32,Sleman,Yogyakarta
+33,Bantul,Yogyakarta
+34,Wonosari,Yogyakarta
+35,Wates,Yogyakarta
+36,Semarang,Jawa Tengah
+37,Surakarta,Jawa Tengah
+38,Magelang,Jawa Tengah
+39,Pekalongan,Jawa Tengah
+40,Kudus,Jawa Tengah
+41,Denpasar,Bali
+42,Singaraja,Bali
+43,Tabanan,Bali
+44,Gianyar,Bali
+45,Klungkung,Bali
+46,Mataram,Nusa Tenggara Barat
+47,Lombok,Nusa Tenggara Barat
+48,Bima,Nusa Tenggara Barat
+49,Sumbawa,Nusa Tenggara Barat
+50,Dompu,Nusa Tenggara Barat
+51,Kupang,Nusa Tenggara Timur
+52,Maumere,Nusa Tenggara Timur
+53,Ende,Nusa Tenggara Timur
+54,Labuan Bajo,Nusa Tenggara Timur
+55,Sikka,Nusa Tenggara Timur
+56,Jakarta Pusat,Jakarta
+57,Jakarta Barat,Jakarta
+58,Jakarta Selatan,Jakarta
+59,Jakarta Utara,Jakarta
+60,Jakarta Timur,Jakarta
+61,Samarinda,Kalimantan Timur
+62,Balikpapan,Kalimantan Timur
+63,Tarakan,Kalimantan Timur
+64,Bontang,Kalimantan Timur
+65,Paser,Kalimantan Timur
+66,Pontianak,Kalimantan Barat
+67,Singkawang,Kalimantan Barat
+68,Ketapang,Kalimantan Barat
+69,Sambas,Kalimantan Barat
+70,Kubu Raya,Kalimantan Barat
+71,Banjarmasin,Kalimantan Selatan
+72,Banjarbaru,Kalimantan Selatan
+73,Martapura,Kalimantan Selatan
+74,Pelaihari,Kalimantan Selatan
+75,Kandangan,Kalimantan Selatan
+76,Manado,Sulawesi Utara
+77,Bitung,Sulawesi Utara
+78,Tondano,Sulawesi Utara
+79,Likupang,Sulawesi Utara
+80,Kotamobagu,Sulawesi Utara
+81,Makassar,Sulawesi Selatan
+82,Parepare,Sulawesi Selatan
+83,Palopo,Sulawesi Selatan
+84,Bone,Sulawesi Selatan
+85,Sinjai,Sulawesi Selatan
+86,Gorontalo,Gorontalo
+87,Limboto,Gorontalo
+88,Kwandang,Gorontalo
+89,Telaga,Gorontalo
+90,Tapa,Gorontalo
+91,Palu,Sulawesi Tengah
+92,Donggala,Sulawesi Tengah
+93,Poso,Sulawesi Tengah
+94,Parigi,Sulawesi Tengah
+95,Luwuk,Sulawesi Tengah
+96,Ambon,Maluku
+97,Tual,Maluku
+98,Dobo,Maluku
+99,Masohi,Maluku
+100,Namlea,Maluku
+101,Cimahi,Jawa Barat
+102,Sumedang,Jawa Barat
+103,Garut,Jawa Barat
+104,Soreang,Jawa Barat
+105,Bandung Barat,Jawa Barat
+106,Lembang,Jawa Barat
+107,Cicalengka,Jawa Barat
+108,Majalaya,Jawa Barat
+109,Ciwidey,Jawa Barat
+110,Bandung,Jawa Barat

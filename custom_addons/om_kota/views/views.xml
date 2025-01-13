@@ -1,0 +1,66 @@
+<odoo>
+  <data>
+    <!-- menu item -->
+    <!-- <menuitem
+      id="vit_kota_menu_list"
+      name="kota"
+      action="vit_kota_action_window"
+      parent="contacts.res_partner_menu_config"
+    /> -->
+    <menuitem
+      id="vit_kota_menu_item"
+      name="Kota"
+      parent="contacts.res_partner_menu_config"
+      action="vit_kota_action_window"
+    />
+
+    <record id="vit_kota_action_window" model="ir.actions.act_window">
+      <field name="name">kota</field>
+      <field name="res_model">vit.om_kota</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- model.name inherit tree view -->
+    <record id="vit_kota_tree_view" model="ir.ui.view">
+      <field name="name">vit_kota_tree_view</field>
+      <field name="model">vit.om_kota</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="state_id"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- model.name inherit form view -->
+    <record id="vit_kota_form_view" model="ir.ui.view">
+      <field name="name">vit_kota_form_view</field>
+      <field name="model">vit.om_kota</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="state_id"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- 
+    model.name inherit form view 
+    inherit kota from res.partner
+    -->
+    <record id="res_partner_kota_form_view" model="ir.ui.view">
+      <field name="name">res_partner_kota_form_view</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+          <field name="state_id" position="before">
+            <field name="kota_id" domain="[('state_id', '=', state_id)]"/> 
+          </field>
+      </field>
+    </record>
+  </data>
+</odoo>
