@@ -9,7 +9,7 @@
       "args": [
         "-c", "config/odoo.conf", // File konfigurasi Odoo
         "-d", "odoo16-db", // Nama database Odoo
-        "-u","om_bank,om_kota",
+        "-u","om_bank,om_kota,om_invoices",
         "--dev=all",
         // "-u","om_pos,point_of_sale,om_js,contacts",
         // "-i", "base", // install

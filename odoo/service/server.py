@@ -477,7 +477,6 @@ class ThreadedServer(CommonServer):
             while True:
                 select.select([pg_conn], [], [], SLEEP_INTERVAL + number)
                 time.sleep(number / 100)
-                pg_conn.poll()
 
                 registries = odoo.modules.registry.Registry.registries
                 _logger.debug('cron%d polling for jobs', number)
